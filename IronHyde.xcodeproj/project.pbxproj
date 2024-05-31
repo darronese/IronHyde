@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E2F141B2C0A3A0E0064381F /* IronHydeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F141A2C0A3A0E0064381F /* IronHydeApp.swift */; };
+		1E2F141D2C0A3A0E0064381F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F141C2C0A3A0E0064381F /* ContentView.swift */; };
+		1E2F141F2C0A3A0F0064381F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E2F141E2C0A3A0F0064381F /* Assets.xcassets */; };
+		1E2F14222C0A3A0F0064381F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E2F14212C0A3A0F0064381F /* Preview Assets.xcassets */; };
+		1E2F142C2C0A3A0F0064381F /* IronHydeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F142B2C0A3A0F0064381F /* IronHydeTests.swift */; };
+		1E2F14362C0A3A0F0064381F /* IronHydeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F14352C0A3A0F0064381F /* IronHydeUITests.swift */; };
+		1E2F14382C0A3A0F0064381F /* IronHydeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F14372C0A3A0F0064381F /* IronHydeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E2F14282C0A3A0F0064381F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E2F140F2C0A3A0E0064381F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E2F14162C0A3A0E0064381F;
+			remoteInfo = IronHyde;
+		};
+		1E2F14322C0A3A0F0064381F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E2F140F2C0A3A0E0064381F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E2F14162C0A3A0E0064381F;
+			remoteInfo = IronHyde;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E2F14172C0A3A0E0064381F /* IronHyde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IronHyde.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E2F141A2C0A3A0E0064381F /* IronHydeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronHydeApp.swift; sourceTree = "<group>"; };
+		1E2F141C2C0A3A0E0064381F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1E2F141E2C0A3A0F0064381F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E2F14212C0A3A0F0064381F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1E2F14272C0A3A0F0064381F /* IronHydeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IronHydeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E2F142B2C0A3A0F0064381F /* IronHydeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronHydeTests.swift; sourceTree = "<group>"; };
+		1E2F14312C0A3A0F0064381F /* IronHydeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IronHydeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E2F14352C0A3A0F0064381F /* IronHydeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronHydeUITests.swift; sourceTree = "<group>"; };
+		1E2F14372C0A3A0F0064381F /* IronHydeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronHydeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E2F14142C0A3A0E0064381F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E2F14242C0A3A0F0064381F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E2F142E2C0A3A0F0064381F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E2F140E2C0A3A0E0064381F = {
+			isa = PBXGroup;
+			children = (
+				1E2F14192C0A3A0E0064381F /* IronHyde */,
+				1E2F142A2C0A3A0F0064381F /* IronHydeTests */,
+				1E2F14342C0A3A0F0064381F /* IronHydeUITests */,
+				1E2F14182C0A3A0E0064381F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E2F14182C0A3A0E0064381F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E2F14172C0A3A0E0064381F /* IronHyde.app */,
+				1E2F14272C0A3A0F0064381F /* IronHydeTests.xctest */,
+				1E2F14312C0A3A0F0064381F /* IronHydeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E2F14192C0A3A0E0064381F /* IronHyde */ = {
+			isa = PBXGroup;
+			children = (
+				1E2F141A2C0A3A0E0064381F /* IronHydeApp.swift */,
+				1E2F141C2C0A3A0E0064381F /* ContentView.swift */,
+				1E2F141E2C0A3A0F0064381F /* Assets.xcassets */,
+				1E2F14202C0A3A0F0064381F /* Preview Content */,
+			);
+			path = IronHyde;
+			sourceTree = "<group>";
+		};
+		1E2F14202C0A3A0F0064381F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1E2F14212C0A3A0F0064381F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1E2F142A2C0A3A0F0064381F /* IronHydeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E2F142B2C0A3A0F0064381F /* IronHydeTests.swift */,
+			);
+			path = IronHydeTests;
+			sourceTree = "<group>";
+		};
+		1E2F14342C0A3A0F0064381F /* IronHydeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E2F14352C0A3A0F0064381F /* IronHydeUITests.swift */,
+				1E2F14372C0A3A0F0064381F /* IronHydeUITestsLaunchTests.swift */,
+			);
+			path = IronHydeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E2F14162C0A3A0E0064381F /* IronHyde */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E2F143B2C0A3A0F0064381F /* Build configuration list for PBXNativeTarget "IronHyde" */;
+			buildPhases = (
+				1E2F14132C0A3A0E0064381F /* Sources */,
+				1E2F14142C0A3A0E0064381F /* Frameworks */,
+				1E2F14152C0A3A0E0064381F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IronHyde;
+			productName = IronHyde;
+			productReference = 1E2F14172C0A3A0E0064381F /* IronHyde.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E2F14262C0A3A0F0064381F /* IronHydeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E2F143E2C0A3A0F0064381F /* Build configuration list for PBXNativeTarget "IronHydeTests" */;
+			buildPhases = (
+				1E2F14232C0A3A0F0064381F /* Sources */,
+				1E2F14242C0A3A0F0064381F /* Frameworks */,
+				1E2F14252C0A3A0F0064381F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E2F14292C0A3A0F0064381F /* PBXTargetDependency */,
+			);
+			name = IronHydeTests;
+			productName = IronHydeTests;
+			productReference = 1E2F14272C0A3A0F0064381F /* IronHydeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E2F14302C0A3A0F0064381F /* IronHydeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E2F14412C0A3A0F0064381F /* Build configuration list for PBXNativeTarget "IronHydeUITests" */;
+			buildPhases = (
+				1E2F142D2C0A3A0F0064381F /* Sources */,
+				1E2F142E2C0A3A0F0064381F /* Frameworks */,
+				1E2F142F2C0A3A0F0064381F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E2F14332C0A3A0F0064381F /* PBXTargetDependency */,
+			);
+			name = IronHydeUITests;
+			productName = IronHydeUITests;
+			productReference = 1E2F14312C0A3A0F0064381F /* IronHydeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E2F140F2C0A3A0E0064381F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1E2F14162C0A3A0E0064381F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					1E2F14262C0A3A0F0064381F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1E2F14162C0A3A0E0064381F;
+					};
+					1E2F14302C0A3A0F0064381F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1E2F14162C0A3A0E0064381F;
+					};
+				};
+			};
+			buildConfigurationList = 1E2F14122C0A3A0E0064381F /* Build configuration list for PBXProject "IronHyde" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E2F140E2C0A3A0E0064381F;
+			productRefGroup = 1E2F14182C0A3A0E0064381F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E2F14162C0A3A0E0064381F /* IronHyde */,
+				1E2F14262C0A3A0F0064381F /* IronHydeTests */,
+				1E2F14302C0A3A0F0064381F /* IronHydeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E2F14152C0A3A0E0064381F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E2F14222C0A3A0F0064381F /* Preview Assets.xcassets in Resources */,
+				1E2F141F2C0A3A0F0064381F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E2F14252C0A3A0F0064381F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E2F142F2C0A3A0F0064381F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E2F14132C0A3A0E0064381F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E2F141D2C0A3A0E0064381F /* ContentView.swift in Sources */,
+				1E2F141B2C0A3A0E0064381F /* IronHydeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E2F14232C0A3A0F0064381F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E2F142C2C0A3A0F0064381F /* IronHydeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E2F142D2C0A3A0F0064381F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E2F14382C0A3A0F0064381F /* IronHydeUITestsLaunchTests.swift in Sources */,
+				1E2F14362C0A3A0F0064381F /* IronHydeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E2F14292C0A3A0F0064381F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E2F14162C0A3A0E0064381F /* IronHyde */;
+			targetProxy = 1E2F14282C0A3A0F0064381F /* PBXContainerItemProxy */;
+		};
+		1E2F14332C0A3A0F0064381F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E2F14162C0A3A0E0064381F /* IronHyde */;
+			targetProxy = 1E2F14322C0A3A0F0064381F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E2F14392C0A3A0F0064381F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E2F143A2C0A3A0F0064381F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E2F143C2C0A3A0F0064381F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IronHyde/Preview Content\"";
+				DEVELOPMENT_TEAM = 5SMDQ434JS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Cool.IronHyde;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E2F143D2C0A3A0F0064381F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IronHyde/Preview Content\"";
+				DEVELOPMENT_TEAM = 5SMDQ434JS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Cool.IronHyde;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E2F143F2C0A3A0F0064381F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5SMDQ434JS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Cool.IronHydeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IronHyde.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IronHyde";
+			};
+			name = Debug;
+		};
+		1E2F14402C0A3A0F0064381F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5SMDQ434JS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Cool.IronHydeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IronHyde.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IronHyde";
+			};
+			name = Release;
+		};
+		1E2F14422C0A3A0F0064381F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5SMDQ434JS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Cool.IronHydeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IronHyde;
+			};
+			name = Debug;
+		};
+		1E2F14432C0A3A0F0064381F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5SMDQ434JS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Cool.IronHydeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IronHyde;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E2F14122C0A3A0E0064381F /* Build configuration list for PBXProject "IronHyde" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E2F14392C0A3A0F0064381F /* Debug */,
+				1E2F143A2C0A3A0F0064381F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E2F143B2C0A3A0F0064381F /* Build configuration list for PBXNativeTarget "IronHyde" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E2F143C2C0A3A0F0064381F /* Debug */,
+				1E2F143D2C0A3A0F0064381F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E2F143E2C0A3A0F0064381F /* Build configuration list for PBXNativeTarget "IronHydeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E2F143F2C0A3A0F0064381F /* Debug */,
+				1E2F14402C0A3A0F0064381F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E2F14412C0A3A0F0064381F /* Build configuration list for PBXNativeTarget "IronHydeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E2F14422C0A3A0F0064381F /* Debug */,
+				1E2F14432C0A3A0F0064381F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E2F140F2C0A3A0E0064381F /* Project object */;
+}
