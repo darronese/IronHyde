@@ -1,4 +1,4 @@
-//
+//d
 //  ContentView.swift
 //  IronHyde
 //
@@ -13,10 +13,18 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+         displayMenu()
         }
         .padding()
     }
+  func displayMenu() -> some View {
+    VStack {
+      Text("Load Previous Workout Plan")
+      Text("New Workout Plan")
+      Text("Settings")
+      Text("Help")
+    }
+  }
 }
 
 #Preview {
